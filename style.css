@@ -1,0 +1,96 @@
+body{
+	font-family: 'Open Sans',sans-serif;
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(10, 102, 223, 0.3));
+}
+
+#container{
+	height: 550px;  
+	margin: 20px;	
+}
+
+#calculator{
+	width: 406px;
+	height: 520px;
+	background-color: #eaedef;
+	margin: auto;
+	top: 20px;
+	position: relative;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#result{
+	height: 120px;
+	text-align: right;
+	margin: 0px 20px;
+	font-size: 30px;
+}
+
+#textview{
+	width: 100%;
+	height: 60px;
+	padding: 20px 10px;
+	background-color: #eaedef;
+	border-width: 0px;  /* Delete Border  */
+	text-align: right;
+	margin: 40px 2px;
+	font-size: 30px;
+	outline: 0;  /* No Line Border */
+   }
+
+#keyboard{
+	height: 400px;
+}
+
+.number, .empty{
+	width: 50px;
+	height: 50px;
+	margin: 15px;
+	float: left;
+	border-radius: 50%;
+	border-width: 0;
+	background-color: #eaedef;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.Currency_exchange{
+	width: 56px;
+	height: 50px;
+	margin: 15px;
+	float: left;
+	border-radius: 12px;
+	border-width: 0;
+	font-weight: bold;
+	font-size: 15px;
+	background-color: #eaedef;
+ 
+}
+
+.Currency_exchange:active, .number:active{
+	font-size: 13px;
+}
+.Currency_exchange, .number, .empty{
+	outline: 0;  /* No Line Border */
+}
+button:nth-child(5){
+	font-size: 20px;
+	background-color: #20b2aa;
+}
+button:nth-child(10){
+	font-size: 20px;
+	background-color: #ffa500;
+}
+button:nth-child(15){
+	font-size: 20px;
+	background-color: #f08080;
+}
+button:nth-child(20){
+	font-size: 20px;
+	background-color: #7d93e0;
+}
+button:nth-child(25){
+	font-size: 20px;
+	background-color: #9477af;
+}
+

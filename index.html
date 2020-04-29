@@ -1,0 +1,66 @@
+
+
+<html>
+ <head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+	<title> Calculator</title>
+ 
+ </head>
+ <body>
+	 
+	<div id="container">
+	 <div id="calculator">	
+	  <div id="result"> 
+					
+		<form name="form">
+			<input type="text" name="textview" id="textview">
+		</form>			
+		</div>
+
+ 
+		<div id="keyboard">
+
+		  <button type="button" id="gg" class="Currency_exchange" onclick="Currency_exchange_1(); insert('$'); ">&#8362; &#8594; $</button> 
+		  <button type="button" class="number" onclick="Clear();">C</button>
+		  <button class="number" onclick="back();">CE</button>
+		  <button class="number">&#37;</button>
+		  <button type="button" class="number" onclick="insert('/')">&#247;</button>
+
+
+		  <button type="button" class="Currency_exchange" onclick=" Currency_exchange_2(); insert('₪');">$ &#8594; &#8362;</button>
+		  <button class="number" onclick="insert(7);">7</button>
+		  <button class="number" onclick="insert(8);">8</button>
+		  <button class="number" onclick="insert(9);">9</button>
+		  <button type="button"  class="number" onclick="insert('*');">&times;</button>
+ 
+
+
+		  <button type="button" class="Currency_exchange" onclick=" Currency_exchange_3(); insert('€');">&#8362; &#8594; &#8364;</button>
+		  <button class="number" onclick="insert(4);">4</button>
+		  <button class="number" onclick="insert(5);">5</button>
+		  <button class="number" onclick="insert(6);">6</button>
+		  <button type="button" class="number" onclick="insert('-');">&#8722;</button>
+
+
+				
+		  <button type="button" class="Currency_exchange" onclick=" Currency_exchange_4(); insert('₪');">&#8364; &#8594; &#8362;</button>
+		  <button class="number" onclick="insert(1);">1</button>
+		  <button class="number" onclick="insert(2);">2</button>
+		  <button class="number" onclick="insert(3);">3</button>
+		  <button type="button" class="number" onclick="insert('+');">&#43;</button>
+
+					
+		  <button class="Currency_exchange" onclick="insert('.');">.</button>
+		  <button class="empty"></button>
+		  <button class="number" onclick="insert(0);">0</button>
+		  <button class="empty"></button>
+		  <button class="number" onclick="equal();">=</button>
+
+			</div>
+			  </div>
+				</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
